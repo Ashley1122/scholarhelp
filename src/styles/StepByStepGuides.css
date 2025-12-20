@@ -1,0 +1,97 @@
+/* Guides Section */
+.guides-section {
+  background: #f7fafc;
+}
+
+.guides-grid {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.guide-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.guide-header {
+  background: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.guide-header h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.3rem;
+}
+
+.guide-category {
+  display: inline-block;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.guide-steps {
+  padding: 1.5rem;
+}
+
+.guide-step {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.guide-step:last-child {
+  margin-bottom: 0;
+}
+
+.step-number {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #f87171;
+}
+
+.step-number svg {
+  position: absolute;
+}
+
+.step-number span {
+  position: relative;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.step-content h4 {
+  margin: 0 0 0.5rem;
+  color: #2d3748;
+  font-size: 1.05rem;
+}
+
+.step-content p {
+  margin: 0;
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.help-note {
+  background: #edf2f7;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.help-note p {
+  margin: 0;
+  color: #4a5568;
+}

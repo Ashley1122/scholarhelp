@@ -1,0 +1,77 @@
+/* Quick Navigation */
+.quick-nav {
+  background: #ffffff;
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.quick-nav-title {
+  text-align: center;
+  font-size: 1.75rem;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.nav-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-card:hover {
+  border-color: #60a5fa;
+  box-shadow: 0 8px 20px rgba(96, 165, 250, 0.15);
+  transform: translateY(-4px);
+}
+
+.nav-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.nav-icon.scholarships {
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+}
+
+.nav-icon.tools {
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+}
+
+.nav-icon.guides {
+  background: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+}
+
+.nav-card h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #1f2937;
+}
+
+.nav-card p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}

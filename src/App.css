@@ -1,0 +1,52 @@
+/* Global App Styles */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Section Styles */
+section {
+  padding: 3rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: #2d3748;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #718096;
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  section {
+    padding: 2rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
+

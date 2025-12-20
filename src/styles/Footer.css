@@ -1,0 +1,32 @@
+/* Footer */
+.footer {
+  background: #2d3748;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+.heart {
+  color: #f87171;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-note {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.copyright {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 1rem !important;
+}
