@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "download-models": "npx degit justadudewhohacks/face-api.js-models/models public/models --force"
+    "deploy": "npm run build && firebase deploy --only hosting:scholarshiphelper",
+    "git-push": "git add . && git commit -m \"$msg\" && git push origin main"
   },
   "dependencies": {
     "@types/cropperjs": "^1.1.5",

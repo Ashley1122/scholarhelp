@@ -8,7 +8,7 @@ export default function Header() {
         <div className="header-content">
           <div className="logo">
             <GraduationCap size={32} />
-            <h1>ScholarHelp.in</h1>
+            <h1>ScholarshipHelp.web.app</h1>
           </div>
           <p className="tagline">Free document formatting tools for scholarship applications</p>
         </div>
