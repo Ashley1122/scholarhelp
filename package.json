@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "npm run build && firebase deploy --only hosting:scholarshiphelper",
-    "git-push": "git add . && git commit -m \"$msg\" && git push origin main"
+    "git-push": "git add . && git commit -m \"%npm_config_message%\" && git push origin main"
   },
   "dependencies": {
     "@types/cropperjs": "^1.1.5",
